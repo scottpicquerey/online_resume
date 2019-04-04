@@ -1,0 +1,304 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 14px;
+}
+button {
+    outline: none;
+}
+.background {
+    background: url('../img/background-image.jpg') center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+.wrapper {
+    position: relative;
+}
+p {
+    color: #6e6e6e;
+}
+/* FRONT PAGE */
+.front-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.front-page > h2 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.5em;
+    color: #ffe763;
+    margin-top: 5rem;
+}
+.front-page > h1 {
+    font-family: "poppins-medium";
+    font-size: 6rem;
+    color: white;
+    margin: 0;
+}
+.front-page > h3 {
+    font-family: "lora-regular", serif;
+    font-size: 1.5em;
+    color: white;
+}
+.about-me-link-btn {
+    font-size: 1.7rem;
+    border: 0.2rem solid rgba(255, 255, 255, .8);
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.7rem 1.7rem;
+    margin-top: 3.5rem;
+}
+.about-me-link-btn:hover {
+    border: 0.2rem solid #ffe763;
+}
+.about-me-link-btn > i {
+    border: solid white;
+    border-width: 0 0.2rem 0.2rem 0;
+    display: inline-block;
+    padding: 0.25rem;
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.icons-link {
+    margin-top: 10rem;
+}
+.icons-link > a > img {
+    height: 3.5vw;
+}
+
+/* ABOUT ME */
+.about-me {
+    background-color: white;
+    padding: 10rem 0;
+}
+.introduction {
+    text-align: center;
+}
+.introduction > h2 {
+    font-size: 1.3rem;
+    margin: 0;
+    font-family: "poppins-bold";
+    color: #ffe763;
+}
+
+.introduction > h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    font-family: "poppins-semibold", serif;
+}
+
+.introduction-content {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.introduction-content > img {
+    margin-left: -5rem;
+    border-radius: 50%;
+    width: 7.5rem;
+    position: absolute;
+}
+
+.introduction-content > p {
+    text-align: left;
+    padding-left: 5rem;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: "lora-regular", serif;
+}
+.about-me-cols {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+.profile {
+    width: 45%;
+}
+.profile > h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+.profile > p {
+    font-family: "lora-regular", serif;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    line-height: 2.4rem;
+}
+.profile-field {
+    margin-bottom: 1.5rem;
+}
+.profile-field > h1 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+}
+.profile-field > p {
+    margin: 0;
+    font-family: "poppins-regular", sans-serif;
+    font-size: 1rem;
+    color: #888888;
+}
+.skills {
+    width: 45%;
+}
+.skills > h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+.skills > p {
+    font-family: "lora-regular", serif;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    line-height: 2.4rem;
+}
+.skills-field {
+    margin-bottom: 1.5rem;
+}
+.skills-field > h1 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+} 
+.skills-field > ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-field > ul > li {
+    background-color: #ffe763;
+    list-style: none;
+    margin-right: 1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-family: "poppins-regular", sans-serif;
+    font-size: 1rem;
+}
+.about-me-btns {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto 0;
+}
+.about-me-btns > * {
+    font-size: 1rem;
+    border: 0.2rem solid black;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 1.2rem 0;
+    font-family: "poppins-bold", sans-serif;
+    width: 22rem;
+    margin: 0 20px;
+}
+
+.hire-me {
+
+}
+.download-cv {
+    /* background-color: #ffe763 !important;
+    border: 0.2rem solid #ffe763 !important; */
+}
+.download-cv > button {
+    background-color: transparent;
+    border: none;   
+    font-size: 1rem;
+    font-family: "poppins-bold", sans-serif;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.contact-me {
+    font-family: "poppins-bold", sans-serif;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0 25% 50px;
+    background-color: #ebebeb;
+}
+
+.contact-me > h1 {
+    margin: 0 0 50px 0;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me-inputs {
+    outline: none;
+    background-color: #ffffffcc;
+    border: none;
+    color: black;
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: "lora-regular", serif;
+    box-sizing: border-box;
+}
+
+.contact-me-inputs::placeholder {
+    color: #6e6e6e;
+    font-size: 1.2rem;
+}
+
+.contact-me > input {
+    padding: 0 2%;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.contact-me > textarea {
+    padding: 2%;
+    height: 200px;
+    resize: none;
+}
+
+.contact-me > button {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    border: 0.2rem solid black;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 1.2rem 0;
+    font-family: "poppins-bold", sans-serif;
+    width: 100px;
+}
+
+.inConstruction {
+    position: absolute;
+    bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: "poppins-medium", sans-serif;
+    font-size: 0.8rem;
+}
